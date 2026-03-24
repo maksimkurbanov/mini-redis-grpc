@@ -1,0 +1,54 @@
+# Git and version control
+.git
+.gitignore
+.gitattributes
+
+# Python-specific files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+.installed.cfg
+*.egg
+
+# C extensions
+*.so
+
+# IDE and editor configuration
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+
+# Test artifacts and logs
+.pytest_cache/
+htmlcov/
+*.log
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Docker specific files
+Dockerfile*
+docker-compose*
+.dockerignore
+.docker
